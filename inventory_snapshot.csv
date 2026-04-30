@@ -1,0 +1,17 @@
+snapshot_date,sku,product_name,opening_stock,received_qty,system_closing_stock,warehouse_count
+2026-04-25,SKU-1001,Wireless Mouse,90,30,108,108
+2026-04-25,SKU-1002,USB-C Dock,18,5,19,19
+2026-04-25,SKU-1003,Mechanical Keyboard,40,12,45,43
+2026-04-25,SKU-1004,Laptop Stand,25,0,22,22
+2026-04-25,SKU-1005,Noise Cancelling Headset,16,0,7,7
+2026-04-25,SKU-1006,Webcam HD,20,0,2,2
+2026-04-25,SKU-1007,Portable SSD 1TB,10,0,5,5
+2026-04-25,SKU-1008,Ergonomic Chair,3,0,1,1
+2026-04-25,SKU-1009,Monitor 27 Inch,9,0,3,4
+2026-04-25,SKU-1010,Desk Lamp,22,0,12,12
+2026-04-25,SKU-1011,External Hard Drive,4,0,-4,-4
+2026-04-25,SKU-1012,Bluetooth Speaker,30,5,21,21
+2026-04-25,SKU-1013,Tablet Sleeve,12,0,1,1
+2026-04-25,SKU-1014,Network Switch,5,1,3,3
+2026-04-25,SKU-1015,HDMI Cable,50,10,60,60
+

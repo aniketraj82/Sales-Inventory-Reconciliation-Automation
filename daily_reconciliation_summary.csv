@@ -1,0 +1,6 @@
+reconciliation_status,sku_count,sales_value,absolute_system_variance,absolute_warehouse_variance
+MATCHED,12,6168.15,0,0
+MISSING_INVENTORY_RECORD,1,60.0,5,0
+OVERSELL_RISK,1,639.92,0,0
+SYSTEM_STOCK_MISMATCH,1,626.5,2,2
+UNPOSTED_WAREHOUSE_ADJUSTMENT,1,1314.0,0,1

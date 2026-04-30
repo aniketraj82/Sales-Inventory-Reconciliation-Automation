@@ -1,0 +1,5 @@
+sku,product_name,opening_stock,received_qty,sold_qty,posted_adjustment_qty,system_closing_stock,warehouse_count,sales_value,unposted_adjustment_qty,unposted_reasons,expected_closing_stock,system_variance,warehouse_variance,reconciliation_status
+SKU-1009,Monitor 27 Inch,9,0,6,0,3,4,1314.0,1,Cycle count correction,3,0,1,UNPOSTED_WAREHOUSE_ADJUSTMENT
+SKU-1003,Mechanical Keyboard,40,12,7,-2,45,43,626.5,0,,43,2,-2,SYSTEM_STOCK_MISMATCH
+SKU-1011,External Hard Drive,4,0,8,0,-4,-4,639.92,-1,Missing item investigation,-4,0,0,OVERSELL_RISK
+SKU-9999,Legacy Adapter,0,0,5,0,0,0,60.0,0,,-5,5,0,MISSING_INVENTORY_RECORD

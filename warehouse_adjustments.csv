@@ -1,0 +1,6 @@
+adjustment_id,adjustment_date,sku,adjustment_qty,reason,posted_to_erp
+ADJ-501,2026-04-25,SKU-1003,-2,Damaged during packing,Yes
+ADJ-502,2026-04-25,SKU-1009,1,Cycle count correction,No
+ADJ-503,2026-04-25,SKU-1011,-1,Missing item investigation,No
+ADJ-504,2026-04-25,SKU-1015,0,No movement,Yes
+

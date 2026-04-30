@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+data/processed/*.db
+data/processed/*.db-journal
