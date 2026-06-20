@@ -1,62 +1,59 @@
 # Sales & Inventory Reconciliation Automation
 
-Automated reconciliation workflow for comparing daily sales activity against inventory snapshots and warehouse adjustments. The project demonstrates how business reconciliation logic can be translated into repeatable SQL and Python workflows that reduce manual spreadsheet review.
-
-## What This Project Shows
-
-- Automated SQL and Python workflows for daily sales and inventory reconciliation.
-- Exception reporting for stock mismatches, oversells, missing inventory records, and unposted warehouse adjustments.
-- Daily reporting pipeline that creates CSV outputs for finance, operations, and engineering review.
-- Clear technical specs for turning business rules into reusable data checks.
+This project automates daily reconciliation between sales orders, inventory snapshots, and warehouse adjustments. It demonstrates how manual spreadsheet checks can be translated into repeatable SQL and Python workflows.
 
 ## Business Problem
 
-Operations teams often compare order exports, inventory snapshots, and warehouse adjustment files manually. That creates repeated spreadsheet work, inconsistent checks, and delayed visibility into inventory issues.
+Operations and finance teams often compare order exports, inventory snapshots, and warehouse adjustment files manually. That creates repeated spreadsheet work, inconsistent checks, and delayed visibility into inventory issues.
 
-This project automates that process by:
+This project automates that process by loading raw files, creating a local database, running reconciliation queries, and producing exception reports for finance and operations review.
 
-1. Loading raw sales, inventory, and adjustment files.
-2. Creating a local SQL database for repeatable checks.
-3. Running reconciliation queries.
-4. Producing exception and summary reports.
+## Dashboard Preview
 
-## Project Structure
+![Sales and inventory reconciliation preview](assets/dashboard-preview.png)
 
-```text
-.
-|-- data/
-|   |-- raw/                  # Input CSV extracts
-|   `-- processed/            # Generated SQLite database
-|-- docs/
-|   `-- technical_spec.md     # Business logic translated into technical specs
-|-- reports/                  # Generated daily reports
-|-- sql/
-|   |-- schema.sql            # Staging table definitions
-|   `-- reconciliation.sql    # Reconciliation query logic
-|-- src/
-|   `-- reconcile.py          # Automation pipeline
-`-- README.md
-```
+## Tools Used
 
-## Quick Start
+- Python for automation and report generation
+- SQL for reconciliation business rules
+- SQLite for local repeatable checks
+- CSV outputs for finance, operations, and engineering review
+- HTML dashboard prototype for portfolio presentation
 
-Run the reconciliation pipeline:
+## What This Project Shows
 
-```powershell
-python src/reconcile.py
-```
+- Automated daily sales and inventory reconciliation workflow
+- Exception reporting for stock mismatches, oversells, missing inventory records, and unposted warehouse adjustments
+- Daily reporting pipeline that creates summary and exception outputs
+- Clear technical specs for translating business rules into reusable data checks
 
-Generated outputs:
+## Latest Output Summary
 
-- `reports/daily_reconciliation_summary.csv`
-- `reports/reconciliation_exceptions.csv`
-- `reports/reconciliation_summary.md`
-- `data/processed/sales_inventory_reconciliation.db`
+- Sales rows loaded: 16
+- Inventory rows loaded: 15
+- Warehouse adjustment rows loaded: 4
+- SKUs reconciled: 16
+- Exceptions found: 4
+- Reconciled sales value: $8,808.57
 
 ## Resume Framing
 
-**Sales & Inventory Reconciliation Automation**
-
 - Automated SQL and Python workflows reducing manual reconciliation effort by 80%.
 - Built daily reporting pipelines saving 15+ hours weekly across finance and operations checks.
-- Worked with developers to translate business logic into technical specs and repeatable exception rules.
+- Translated business logic into technical specs and repeatable exception rules.
+
+## Project Outputs
+
+- `daily_reconciliation_summary.csv`
+- `reconciliation_exceptions.csv`
+- `reconciliation_summary.md`
+- `sales_inventory_reconciliation.db`
+- `technical_spec.md`
+- `index.html`
+
+## How To Run
+
+```bash
+python reconcile.py
+```
+
